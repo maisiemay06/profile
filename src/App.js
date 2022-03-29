@@ -53,7 +53,7 @@ function App() {
       </nav>
 
 
-      <main>
+      <main className='container'>
         <ProfileSummary />
         <AvoidProfessions />
         <InMeeowProfile />

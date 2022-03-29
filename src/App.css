@@ -162,15 +162,20 @@ main {
 }
 
 .section-title {
+  font-size: 1.28rem;
+  font-weight: 600;
+}
 
+.container {
+  width: 1292px;
 }
 
 /* PROFILE SUMMARY */
 .profile-summary .cover-img {
   width: 1292px;
   height: 287px;
-  margin-left: -47px;
-  margin-top: -64px;
+  margin-left: -46px;
+  margin-top: -67px;
 }
 
 .profile-summary .profile-img {
@@ -196,10 +201,11 @@ main {
 .profile-summary .container {
   width: 1292px;
   margin-left: -20px;
+  margin-top: -80px;
 }
 
 .profile-summary .intro {
-  margin-top: -80px;
+  
   font-size: 1rem;
   color: var(--dark-blue);
   margin-bottom: 30px;
@@ -268,4 +274,14 @@ main {
 
 .profile-summary .languages li {
   margin-top: 15px;
+}
+
+/* AVOID PROFESSIONS */
+.avoid .smaller-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.avoid p {
+  font-size: 1rem;
 }
