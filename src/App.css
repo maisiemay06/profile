@@ -1,38 +1,142 @@
+:root {
+  --main-blue: #3A4BF2;
+  --dark-blue: #28348A;
+  --accent-blue: #00DCDC;
+  --background: #F2F3FC;
+  --white: #FFFFFF;
+  font-size: 14px;
+}
+
 .App {
+  background-color: var(--background);
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* COUNTER BAR */
+.counter-nav {
+  background-color: var(--main-blue);
+  color: var(--white);
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  margin-top: -30px;
+  margin-left: 230px;
   text-align: center;
+  display: inline;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.counter-nav .timer-title {
+  font-size: 1.14rem;
+  font-weight: 500;
+  display: inline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.counter-nav .timer-countdown {
+  font-size: 3.28rem;
+  font-weight: 600;
+  display: inline;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.counter-nav .book-meeow-btn {
+  height: 45px;
+  width: 165px;
+  border: none;
+  background-color: var(--accent-blue);
+  color: var(--white);
+  border-radius: 6px;
+  display: inline;
 }
 
-.App-link {
-  color: #61dafb;
+.counter-nav .fa-magnifying-glass {
+  color: var(--main-blue);
+  position: relative;
+  left: 32px;
+  font-size: 1.6rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.counter-nav .search {
+  height: 45px;
+  width: 246px;
+  padding-left: 45px;
+  border: none;
+  border-radius: 4px;
+}
+
+.counter-nav .notifications {
+  color: var(--white);
+  font-size: 1.14rem;
+  text-decoration: none;
+}
+
+.counter-nav .fa-bell {
+  font-size: 1.6rem;
+}
+
+.counter-nav .nav-profile-img {
+  height: 57px;
+  width: 57px;
+}
+
+/* SIDEBAR */
+.sidebar-nav {
+  background-color: var(--white);
+  color: var(--main-blue);
+  font-weight: 500;
+  width: 230px;
+  height: 100%;
+  z-index: 11;
+  position: fixed;
+  margin-top: -30px;
+}
+
+.sidebar-nav .logo {
+  width: 125px;
+  margin: 32px;
+}
+
+.sidebar-nav ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+.sidebar-nav li {
+  list-style: none;
+  font-size: 1rem;
+  margin-bottom: 28px;
+}
+
+/* SIDEBAR FOOTER */
+.sidebar-footer {
+  position: fixed;
+  bottom: 10px;
+  width: 229px;
+}
+
+.sidebar-footer .how-to-btn {
+  background-color: var(--accent-blue);
+  color: var(--white);
+  width: 148px;
+  height: 41px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 30px;
+}
+
+.sidebar-footer hr {
+  background-color: #3744E9;
+  opacity: 12%;
+}
+
+
+main {
+  margin-top: 30px;
+  margin-left: 240px;
+}
+
+img {
+  width: 30px;
 }

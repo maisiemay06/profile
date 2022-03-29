@@ -1,10 +1,14 @@
 import React from 'react';
+import coverImg from './imgs/cover-img.png';
+import linkedInLogo from './imgs/linkedin-logo.png';
+import meeowLogo2 from './imgs/meeow-logo2.png';
+import profileImg from './imgs/profile-img.png';
 
 export default function ProfileSummary() {
     return (
         <div className="card container profile-summary">
-          <img src="" alt="" className='cover-img row-5'></img>
-          <img src="" alt="" className='profile-img'></img>
+          <img src={coverImg} alt="" className='cover-img row-5'></img>
+          <img src={profileImg} alt="" className='profile-img'></img>
           <i class="fa-solid fa-pen-to-square edit-btn"></i>
           <div className="summary-info row-6">
             <i class="fa-solid fa-pen-to-square edit-btn"></i>  
@@ -18,12 +22,12 @@ export default function ProfileSummary() {
               <h4 className='summary-title'>Contact info</h4>
               <ul>
                 <li> 
-                  <img src="" alt="" className='meeow-link-img contact-icon'></img>
+                  <img src={meeowLogo2} alt="" className='meeow-link-img contact-icon'></img>
                   <a href="https://www.meeow.co/simonglennbrandboy" className="contact-link">https://www.meeow.co/simonglennbrandboy</a>
                   <i class="fa-light fa-window-restore"></i>
                 </li>
                 <li>
-                  <img src="" alt="" className="linkedin-logo-img contact-icon"></img>
+                  <img src={linkedInLogo} alt="" className="linkedin-logo-img contact-icon"></img>
                   <a href="https://www.linkedin.com/in/brandboy/" className="contact-link">https://www.linkedin.com/in/brandboy/</a>
                 </li>
               </ul>
