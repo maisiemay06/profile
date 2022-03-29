@@ -340,3 +340,22 @@ main {
   margin-right: 10px;
   
 }
+
+/* SERVICES & SKILLS */
+.services-skills .container {
+  padding: 0;
+  margin: -50px 0px 0 -15px;
+  height: 370px;
+}
+
+.services-skills card {
+  height: 370px;
+}
+
+.services-skills .section-title {
+  margin-bottom: 35px;
+}
+
+.services-skills li {
+  margin-bottom: 15px;
+}
