@@ -166,8 +166,8 @@ main {
   font-weight: 600;
 }
 
-.container {
-  width: 1292px;
+.section-descrip {
+  font-size: 1rem;
 }
 
 /* PROFILE SUMMARY */
@@ -285,3 +285,31 @@ main {
 .avoid p {
   font-size: 1rem;
 }
+
+/* IN MEEOW PROFILE */
+.in-meeow-profile {
+  color: var(--main-blue);
+}
+
+.in-meeow-profile .in-meeow-head {
+  margin-left: -10px;
+}
+
+.in-meeow-profile .container {
+  padding: 0;
+}
+
+.in-meeow-profile .card {
+  display: inline-block;
+  background-color: var(--main-blue);
+  height: 229px;
+  color: var(--white);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.in-meeow-profile .gap {
+  width: 24px;
+}
+
+/* AUTO MEEOW REPORT */
