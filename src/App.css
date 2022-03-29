@@ -164,10 +164,15 @@ main {
 .section-title {
   font-size: 1.28rem;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .section-descrip {
   font-size: 1rem;
+}
+
+.gap {
+  width: 24px;
 }
 
 /* PROFILE SUMMARY */
@@ -185,7 +190,6 @@ main {
   border-radius: 50%;
   position: relative;
   top: -80px;
-  left: -4px;
 }
 
 .profile-summary .edit-btn-wht {
@@ -200,7 +204,7 @@ main {
 
 .profile-summary .container {
   width: 1292px;
-  margin-left: -20px;
+  margin-left: 0px;
   margin-top: -80px;
 }
 
@@ -282,8 +286,9 @@ main {
   font-weight: 600;
 }
 
-.avoid p {
-  font-size: 1rem;
+.avoid .container {
+  margin-top: -10px;
+  margin-left: 2px;
 }
 
 /* IN MEEOW PROFILE */
@@ -308,8 +313,30 @@ main {
   border-radius: 8px;
 }
 
-.in-meeow-profile .gap {
-  width: 24px;
+/* AUTO MEEOW REPORT */
+.auto-report .edit-btn-dark {
+  color: var(--dark-blue);
 }
 
-/* AUTO MEEOW REPORT */
+.auto-report .container {
+  margin-top: -20px;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.auto-report .card {
+  display: inline-block;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  height: 196px;
+  padding: 30px;
+  border-radius: 8px;
+  margin-left: 10px;
+  width: 591px;
+}
+
+.auto-report input {
+  border: solid 3px var(--dark-blue);
+  margin-right: 10px;
+  
+}
