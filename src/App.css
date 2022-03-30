@@ -179,7 +179,7 @@ main {
 .section-title {
   font-size: 1.28rem;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .section-descrip {
@@ -419,6 +419,10 @@ main {
   width: 90%;
 }
 
+.exp-content .exp-title {
+  font-weight: 600;
+}
+
 .exp-content img {
   margin-left: -20px;
   width: 49px;
@@ -427,6 +431,7 @@ main {
 
 .exp-content li {
   margin-bottom: 8px;
+  font-weight: 500;
 }
 
 .exp-content hr {
@@ -441,4 +446,8 @@ main {
 .edu-content .edu-info {
   margin: -50px 0 20px 80px;
   width: 90%;
+}
+
+.edu-content .edu-name {
+  font-weight: 600;
 }

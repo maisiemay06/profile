@@ -12,7 +12,7 @@ export default function Experience() {
               <img src={holderImg} alt="" className='exp-img'></img>
               <div className="exp-info">
                 <ul>
-                  <li>Founder</li>
+                  <li className="exp-title">Founder</li>
                   <li>Meeow Ltd - Full Time</li>
                   <li>May 2020 - Present ● 9 mos</li>
                   <li>Cleckheaton, England, United Kingdom</li>
@@ -30,7 +30,7 @@ export default function Experience() {
               <img src={holderImg} alt="" className='exp-img'></img>
               <div className="exp-info">
                 <ul>
-                  <li>Founder</li>
+                  <li className="exp-title">Founder</li>
                   <li>Meeow Ltd - Full Time</li>
                   <li>May 2020 - Present ● 9 mos</li>
                   <li>Cleckheaton, England, United Kingdom</li>
@@ -48,7 +48,7 @@ export default function Experience() {
               <img src={holderImg} alt="" className='exp-img'></img>
               <div className="exp-info">
                 <ul>
-                  <li>Founder</li>
+                  <li className="exp-title">Founder</li>
                   <li>Meeow Ltd - Full Time</li>
                   <li>May 2020 - Present ● 9 mos</li>
                   <li>Cleckheaton, England, United Kingdom</li>
