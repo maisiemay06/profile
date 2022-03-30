@@ -35,20 +35,21 @@ ul {
   margin-top: -76px;
   margin-left: 230px;
   text-align: center;
-  display: inline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .counter-nav .timer-title {
   font-size: 1.14rem;
   font-weight: 500;
-  display: inline;
 }
 
 .counter-nav .timer-countdown {
   font-size: 3.28rem;
   font-weight: 600;
   display: inline;
-
+  margin: auto;
 }
 
 .counter-nav .book-meeow-btn {
@@ -451,3 +452,14 @@ main {
 .edu-content .edu-name {
   font-weight: 600;
 }
+
+/* TO DO:
+Add spacing below experience list
+Add underline to see more and space before
+Paragraph spacing in about
+Remove spacing between card title and description
+Spacing on in-meeow service/skills list
+Fix timer bar
+Spacing before connections
+Checkbox restyle
+*/
