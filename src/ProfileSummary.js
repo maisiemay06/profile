@@ -38,16 +38,14 @@ export default function ProfileSummary() {
                 </div>
               </div>
               <div className="exp-edu-summary col-3">
-                <ul>
-                  <li>
-                    <img src={meeowLogo2} alt="" className='exp-edu-img'></img>
-                    <p>Meeow Ltd</p>
-                  </li>
-                  <li>
-                    <img src={holderImg} alt="" className='exp-edu-img'></img>
+                <div className="img-list-container">
+                  <img src={meeowLogo2} alt="" className='exp-edu-img'></img>
+                  <p>Meeow Ltd</p>
+                </div>
+                <div className="img-list-container">
+                  <img src={holderImg} alt="" className='exp-edu-img'></img>
                     <p>Whitcliffe Mount Comprehensive School</p>
-                  </li>
-                </ul>
+                </div>
               </div>
               <div className="languages col-2">
                 <h4 className='summary-title'>Languages</h4>

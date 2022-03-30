@@ -280,19 +280,15 @@ main {
   margin-left: 20px;
 }
 
-.profile-summary .exp-edu-summary li {
+.img-list-container {
+  overflow: auto;
   margin-bottom: 20px;
 }
 
-.profile-summary .exp-edu-summary img {
+.img-list-container img {
+  float: left;
   border-radius: 3px;
   margin-right: 10px;
-}
-
-.profile-summary .exp-edu-summary p {
-  word-wrap: break-word;
-  width: 175px;
-  display: inline;
 }
 
 .profile-summary .languages li {
