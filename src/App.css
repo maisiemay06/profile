@@ -1,9 +1,11 @@
+/* GLOBAL */
 :root {
   --main-blue: #3A4BF2;
   --dark-blue: #28348A;
   --accent-blue: #00DCDC;
   --background: #F2F3FC;
   --white: #FFFFFF;
+  --accent-light: #DFE1F8;
   font-size: 14px;
 }
 
@@ -12,6 +14,8 @@
   font-family: sofia-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding-bottom: 160px;
+  line-height: 1.8rem;
 }
 
 ul {
@@ -151,14 +155,25 @@ main {
   padding: 46px;
 }
 
-.edit-btn {
+.edit-btn,
+.add-btn {
   color: var(--main-blue);
   font-size: 1.6rem;
-  z-index: 10;
+  z-index: 8;
   text-align: right;
   position: relative;
   top: -20px;
   right: -20px;
+}
+
+.add-btn {
+  margin-bottom: 10px;
+  right: -18px;
+}
+
+.edit-btn-light,
+.add-btn-light {
+  color: var(--accent-light);
 }
 
 .section-title {
@@ -174,6 +189,10 @@ main {
 .gap {
   width: 24px;
 }
+
+
+
+
 
 /* PROFILE SUMMARY */
 .profile-summary .cover-img {
@@ -198,7 +217,7 @@ main {
 
 .profile-summary .edit-btn-profile {
   position: relative;
-  right: -1200px;
+  left: 1180px;
   top: -60px;
 }
 
@@ -344,18 +363,86 @@ main {
 /* SERVICES & SKILLS */
 .services-skills .container {
   padding: 0;
-  margin: -50px 0px 0 -15px;
+  margin: -50px 0px -80px -10px;
   height: 370px;
 }
 
 .services-skills card {
   height: 370px;
+  
 }
 
 .services-skills .section-title {
   margin-bottom: 35px;
 }
 
+.services-skills ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+
 .services-skills li {
+  margin-bottom: 10px;
+}
+
+/* ABOUT */
+.about-info {
+  margin-top: -20px;
+  text-align: justify;
+}
+
+/* INTERESTS */
+.interests-info {
+  margin-top: -20px;
+}
+
+.interests li {
   margin-bottom: 15px;
+}
+
+/* EXPERIENCE */
+.exp-content {
+  margin-top: -30px;
+}
+
+.exp-content .edit-btn {
+  position: relative;
+  left: 1200px;
+}
+
+.exp-content .exp-section {
+  margin: 60px 0;
+}
+
+.exp-content .exp-info {
+  margin: -50px 0 20px 80px;
+  width: 90%;
+}
+
+.exp-content img {
+  margin-left: -20px;
+  width: 49px;
+  height: 49px;
+}
+
+.exp-content li {
+  margin-bottom: 8px;
+}
+
+.exp-content hr {
+  border: solid 2px #F7F8FD;
+}
+
+/* EDUCATION */
+.edu-content {
+  margin-top: -50px;
+}
+
+.edu-content .edu-info {
+  margin: -50px 0 20px 80px;
+  width: 90%;
 }
