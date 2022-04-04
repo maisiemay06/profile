@@ -182,6 +182,11 @@ main {
   color: var(--accent-light);
 }
 
+.edit-btn:hover,
+.add-btn:hover {
+  cursor: pointer;
+}
+
 .section-title {
   font-size: 1.28rem;
   font-weight: 600;
@@ -220,7 +225,7 @@ main {
 
 .profile-summary .edit-btn-profile {
   position: relative;
-  left: 1000px;
+  left: 800px;
   top: -60px;
 }
 
@@ -478,8 +483,5 @@ Spacing on in-meeow service/skills list
 Fix timer bar
 Spacing before connections
 Checkbox restyle
-Responsive
+Responsive - pop up too!
 */
-
-/* POPUP */
-

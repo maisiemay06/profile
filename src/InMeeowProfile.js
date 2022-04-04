@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import EditInMeeow from "./EditInMeeow";
+
 
 export default function InMeeowProfile() {
+  const [isOpen, setIsOpen] = useState(false);
+  
+  function editInMeeow(event) {
+    event.preventDefault();
+    setIsOpen(!isOpen);
+  }
+
     return (
       <div className="card main-card in-meeow-profile">
-        <i className="fa-solid fa-pen-to-square edit-btn"></i> 
+          <i className="fa-solid fa-pen-to-square edit-btn" onClick={editInMeeow}></i> 
+        {isOpen && <EditInMeeow handleClose={editInMeeow}/>}
         <div className="container">
           <div className="in-meeow-head">
             <h3 className="section-title">In Meeow profile</h3>

@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
+import EditAutoReport from "./EditAutoReport";
 
 export default function AutoReport() {
+  const [isOpen, setIsOpen] = useState(false);
+  
+  function editAutoReport(event) {
+    event.preventDefault();
+    setIsOpen(!isOpen);
+  }
+
     return (
       <div className="card main-card auto-report">
-        <i className="fa-solid fa-pen-to-square edit-btn edit-btn-dark"></i>
+        <i className="fa-solid fa-pen-to-square edit-btn edit-btn-dark" onClick={editAutoReport}></i>
+        {isOpen && <EditAutoReport handleClose={editAutoReport}/>}
         <div className="container">
           <h3 className="section-title">Auto Meeow Report decription</h3>
           <p className="section-descrip">This info will be included whenever anyone posts a Meeow Report to Linkedin about a Meeow you attended.</p>

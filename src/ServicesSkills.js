@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
+import EditServicesSkills from "./EditServicesSkills";
 
 export default function ServicesSkills() {
+  const [isOpen, setIsOpen] = useState(false);
+  
+  function editServicesSkills(event) {
+    event.preventDefault();
+    setIsOpen(!isOpen);
+  }
+
     return (
         <div className="card main-card services-skills">
-          <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+          <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light" onClick={editServicesSkills}></i>
+          {isOpen && <EditServicesSkills handleClose={editServicesSkills}/>}
           <div className="container">
             <div className="row">
               <div className="services card col">

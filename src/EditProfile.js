@@ -67,7 +67,7 @@ export default function EditProfile(props) {
                         </div>
                     </form>
                 </div>
-                <input type="submit" value='save' className="save-btn"/>
+                <input type="submit" value='save' className="save-btn" onClick={props.handleClose}/>
             </div>
         </div>
     )

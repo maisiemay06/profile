@@ -21,9 +21,7 @@ export default function ProfileSummary() {
           <img src={coverImg} alt="" className='cover-img'></img>
           <img src={profileImg} alt="" className='profile-img'></img>
           <div className="summary-info container">
-            <a href="" onClick={editProfile}>
-              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-profile" id='edit-profile'></i>  
-            </a>
+              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-profile" onClick={editProfile} id='edit-profile'></i>  
             {isOpen && <EditProfile handleClose={editProfile}/>}
             <div className="row">
               <div className="col-7">

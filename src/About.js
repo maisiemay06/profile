@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
+import EditAbout from "./EditAbout";
 
 export default function About() {
+const [isOpen, setIsOpen] = useState(false);
+
+function editAbout(event) {
+  event.preventDefault();
+  setIsOpen(!isOpen);
+}
+
     return (
         <div className="card main-card about">
-          <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+          <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light" onClick={editAbout}></i>
+          {isOpen && <EditAbout handleClose={editAbout}/>}
           <div className="about-info">
             <h3 className="section-title">About</h3>
             <p className="section-descrip">
