@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import EditInterests from "./EditInterests";
+import EditInterests from "./components/EditInterests";
 
 export default function Interests() {
   const [isOpen, setIsOpen] = useState(false);

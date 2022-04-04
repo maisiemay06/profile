@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import EditEducation from "./EditEducation";
-import holderImg from './imgs/holder-img.png';
+import EditEducation from "./components/EditEducation";
+import holderImg from '../imgs/holder-img.png';
 
 export default function Education() {
 const [isOpen, setIsOpen] = useState(false);

@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import ProfileSummary from './ProfileSummary';
-import AvoidProfessions from './AvoidProfessions';
-import InMeeowProfile from './InMeeowProfile';
-import AutoReport from './AutoReport';
-import ServicesSkills from './ServicesSkills';
-import About from './About';
-import Interests from './Interests';
-import Experience from './Experience';
-import Education from './Education';
+import './styles/App.css';
+import ProfileSummary from './components/ProfileSummary';
+import AvoidProfessions from './components/AvoidProfessions';
+import InMeeowProfile from './components/nMeeowProfile';
+import AutoReport from './components/AutoReport';
+import ServicesSkills from './components/ServicesSkills';
+import About from './components/About';
+import Interests from './components/Interests';
+import Experience from './components/Experience';
+import Education from './components/Education';
 import profileImg from './imgs/profile-img.png';
 import meeowLogo from './imgs/meeow-logo.png';
 

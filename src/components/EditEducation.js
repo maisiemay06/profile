@@ -1,23 +1,23 @@
 import React from "react";
-import './PopUp.css';
+import '../styles/PopUp.css';
 
-export default function EditExperience(props) {
+export default function EditEducation(props) {
     return (
         <div className="popup">
             <div className="popup-box">
                 <div className="popup-head">
-                    <h3 className="popup-title">edit experience</h3>
+                    <h3 className="popup-title">edit education</h3>
                     <i className="fa-solid fa-xmark close-btn" onClick={props.handleClose} ></i>
                 </div>
                 <div className="edit-info-wrapper">
                 <form>
                         <div className="full-width">
-                            <label htmlFor="employment-title">Title*</label>
-                            <input type="text" id="employment-title" placeholder="Founder"/>
+                            <label htmlFor="school">School*</label>
+                            <input type="text" id="school" placeholder="Whitcliffe Mount Comprehensive School"/>
                         </div>
                         <div className="full-width">
-                            <label htmlFor="employment-type">Employment type</label>
-                            <select name="" id="employment-type">
+                            <label htmlFor="degree">Degree</label>
+                            <select name="" id="degree">
                                 <option value="full-time">Full Time</option>
                                 <option value="part-time">Part Time</option>
                                 <option value="temporary">Temporary</option>
@@ -25,20 +25,10 @@ export default function EditExperience(props) {
                             </select>
                         </div>
                         <div className="full-width">
-                            <label htmlFor="company">Company*</label>
-                            <input type="text" id="company" placeholder="Meeow Ltd"/>
+                            <label htmlFor="field-study">Field of Study</label>
+                            <input type="text" id="field-study"/>
                         </div>
-                        <div className="full-width">
-                            <label htmlFor="location">Location withing the area</label>
-                            <input type="text" id="location" placeholder="Bradford, England, United Kingdom"/>
-                        </div>
-                        <div className="full-width">
-                            <input type="checkbox" name="" id="current-role" />
-                            <label htmlFor="current-role" id="checkbox-label">Show education in my intro</label>
-                        </div>
-                        
                         <label htmlFor="start-date" className="column-1">Start date</label>
-                        
                         <label htmlFor="end-date" className="column-3">End date</label>
                         <div className="column-1">
                             <select name="" id="start-date">
@@ -107,7 +97,18 @@ export default function EditExperience(props) {
                                 <option value="2011">2011</option>
                             </select>
                         </div>
-                        
+                        <div className="full-width">
+                            <label htmlFor="grade">Grade</label>
+                            <input type="text" id="location" />
+                        </div>
+                        <div className="full-width">
+                            <label htmlFor="activities">Activities and societies</label>
+                            <textarea name="" id="activities" cols="30" rows="10" maxLength={500}></textarea>
+                        </div>
+                        <div className="full-width">
+                            <label htmlFor="description">Description</label>
+                            <textarea name="" id="description" cols="30" rows="10" maxLength={500}></textarea>
+                        </div>
                     </form>
                 </div>
                 <input type="submit" value='save' className="save-btn" onClick={props.handleClose}/>

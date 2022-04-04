@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import coverImg from './imgs/cover-img.png';
-import linkedInLogo from './imgs/linkedin-logo.png';
-import meeowLogo2 from './imgs/meeow-logo2.png';
-import profileImg from './imgs/profile-img.png';
-import openWindowIcon from './imgs/open-window-icon.png';
-import holderImg from './imgs/holder-img.png';
-import EditProfile from './EditProfile';
+import coverImg from '../imgs/cover-img.png';
+import linkedInLogo from '../imgs/linkedin-logo.png';
+import meeowLogo2 from '../imgs/meeow-logo2.png';
+import profileImg from '../imgs/profile-img.png';
+import openWindowIcon from '../imgs/open-window-icon.png';
+import holderImg from '../imgs/holder-img.png';
+import EditProfile from './components/EditProfile';
 
 export default function ProfileSummary() {
   const [isOpen, setIsOpen] = useState(false);

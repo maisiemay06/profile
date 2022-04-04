@@ -1,5 +1,5 @@
 import React from "react";
-import './PopUp.css';
+import '../styles/PopUp.css';
 
 export default function EditAutoReport(props) {
     return (

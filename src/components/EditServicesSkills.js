@@ -1,7 +1,7 @@
-import './PopUp.css';
-import React from 'react';
+import React from "react";
+import '../styles/PopUp.css';
 
-export default function EditInMeeow(props) {
+export default function EditServicesSkills(props) {
     return (
         <div className="popup">
             <div className="popup-box">
@@ -11,10 +11,6 @@ export default function EditInMeeow(props) {
                 </div>
                 <div className="edit-info-wrapper">
                     <form>
-                        <div className="full-width">
-                            <label htmlFor="about-you">About you</label>
-                            <textarea name="" id="about-you" cols="80" rows="5" placeholder='50 character limit' maxLength={50}></textarea>
-                        </div>
                         <div className="left-col">
                             <label htmlFor="services">Services</label>
                             <p className='services-skills-sub'>3 x Service limit</p>
