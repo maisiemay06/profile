@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About() {
     return (
-        <div className="card about">
-          <i class="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+        <div className="card main-card about">
+          <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
           <div className="about-info">
             <h3 className="section-title">About</h3>
             <p className="section-descrip">

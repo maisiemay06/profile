@@ -3,9 +3,9 @@ import holderImg from './imgs/holder-img.png';
 
 export default function Education() {
     return (
-        <div className="card education">
-          <i class="fa-solid fa-plus add-btn add-btn-light"></i>
-          <i class="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+        <div className="card main-card education">
+          <i className="fa-solid fa-plus add-btn add-btn-light"></i>
+          <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
           <div className="edu-content">
             <h3 className="section-title">Education</h3>
             <div className="edu-section">

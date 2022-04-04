@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Interests() {
     return (
-        <div className="card interests">
-          <i class="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+        <div className="card main-card interests">
+          <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
           <div className="interests-info">
             <h3 className="section-title">Interests</h3>
             <ul>

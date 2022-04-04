@@ -3,12 +3,12 @@ import holderImg from './imgs/holder-img.png';
 
 export default function Experience() {
     return (
-        <div className="card experience">
-          <i class="fa-solid fa-plus add-btn add-btn-light"></i>
+        <div className="card main-card experience">
+          <i className="fa-solid fa-plus add-btn add-btn-light"></i>
           <div className="exp-content">
             <h3 className="section-title">Experience</h3>
             <div className="exp-section">
-              <i class="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
               <img src={holderImg} alt="" className='exp-img'></img>
               <div className="exp-info">
                 <ul>
@@ -26,7 +26,7 @@ export default function Experience() {
             </div>
             <hr />
             <div className="exp-section">
-              <i class="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
               <img src={holderImg} alt="" className='exp-img'></img>
               <div className="exp-info">
                 <ul>
@@ -44,7 +44,7 @@ export default function Experience() {
             </div>
             <hr />
             <div className="exp-section">
-              <i class="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
               <img src={holderImg} alt="" className='exp-img'></img>
               <div className="exp-info">
                 <ul>

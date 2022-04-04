@@ -2,8 +2,8 @@ import React from "react";
 
 export default function ServicesSkills() {
     return (
-        <div className="card services-skills">
-          <i class="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+        <div className="card main-card services-skills">
+          <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
           <div className="container">
             <div className="row">
               <div className="services card col">

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function AutoReport() {
     return (
-      <div className="card auto-report">
-        <i class="fa-solid fa-pen-to-square edit-btn edit-btn-dark"></i>
+      <div className="card main-card auto-report">
+        <i className="fa-solid fa-pen-to-square edit-btn edit-btn-dark"></i>
         <div className="container">
           <h3 className="section-title">Auto Meeow Report decription</h3>
           <p className="section-descrip">This info will be included whenever anyone posts a Meeow Report to Linkedin about a Meeow you attended.</p>

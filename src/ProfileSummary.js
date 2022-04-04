@@ -1,19 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import coverImg from './imgs/cover-img.png';
 import linkedInLogo from './imgs/linkedin-logo.png';
 import meeowLogo2 from './imgs/meeow-logo2.png';
 import profileImg from './imgs/profile-img.png';
 import openWindowIcon from './imgs/open-window-icon.png';
 import holderImg from './imgs/holder-img.png';
+import EditProfile from './EditProfile';
 
 export default function ProfileSummary() {
+  const [isOpen, setIsOpen] = useState(false);
+  
+  function editProfile(event) {
+    event.preventDefault();
+    setIsOpen(!isOpen);
+  }
+
     return (
-        <div className="card profile-summary">
-          <i class="fa-solid fa-pen-to-square edit-btn edit-btn-wht"></i>
-          <img src={coverImg} alt="" className='cover-img row-5'></img>
+        <div className="card main-card profile-summary">
+          <i className="fa-solid fa-pen-to-square edit-btn edit-btn-wht"></i>
+          <img src={coverImg} alt="" className='cover-img'></img>
           <img src={profileImg} alt="" className='profile-img'></img>
           <div className="summary-info container">
-            <i class="fa-solid fa-pen-to-square edit-btn edit-btn-profile"></i>  
+            <a href="" onClick={editProfile}>
+              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-profile" id='edit-profile'></i>  
+            </a>
+            {isOpen && <EditProfile handleClose={editProfile}/>}
             <div className="row">
               <div className="col-7">
                 <div className="intro">

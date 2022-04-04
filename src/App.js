@@ -21,10 +21,10 @@ function App() {
         <h6 className='timer-title'>the next Meeow starts in</h6>
         <h1 className='timer-countdown'>23:54</h1>
         <button className='book-meeow-btn button'>book this Meeow</button>
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <i className="fa-solid fa-magnifying-glass"></i>
         <input className='search' type='text' placeholder='Search here'></input>
         <a href='' className='notifications'>
-          <i class="fa-solid fa-bell"></i>
+          <i className="fa-solid fa-bell"></i>
           notifications
         </a>
         <a href=''>
@@ -53,7 +53,7 @@ function App() {
       </nav>
 
 
-      <main className='container'>
+      <main className='container main-container'>
         <ProfileSummary />
         <AvoidProfessions />
         <InMeeowProfile />

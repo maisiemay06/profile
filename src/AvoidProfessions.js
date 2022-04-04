@@ -2,8 +2,8 @@ import React from "react";
 
 export default function AvoidProfessions() {
     return (
-        <div className="card avoid">
-          <i class="fa-solid fa-pen-to-square edit-btn"></i>  
+        <div className="card main-card avoid">
+          <i className="fa-solid fa-pen-to-square edit-btn"></i>  
           <div className="container">
             <div className="row">
               <div className="avoid-intro col-6">

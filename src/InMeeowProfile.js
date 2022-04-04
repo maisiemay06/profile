@@ -2,8 +2,8 @@ import React from "react";
 
 export default function InMeeowProfile() {
     return (
-      <div className="card in-meeow-profile">
-        <i class="fa-solid fa-pen-to-square edit-btn"></i> 
+      <div className="card main-card in-meeow-profile">
+        <i className="fa-solid fa-pen-to-square edit-btn"></i> 
         <div className="container">
           <div className="in-meeow-head">
             <h3 className="section-title">In Meeow profile</h3>
