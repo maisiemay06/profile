@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import EditEducation from "./EditEducation";
 import holderImg from './imgs/holder-img.png';
 
 export default function Education() {
+const [isOpen, setIsOpen] = useState(false);
+
+function editEducation(event) {
+  event.preventDefault();
+  setIsOpen(!isOpen);
+}
+
     return (
         <div className="card main-card education">
-          <i className="fa-solid fa-plus add-btn add-btn-light"></i>
-          <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+          <i className="fa-solid fa-plus add-btn add-btn-light" onClick={editEducation}></i>
+          <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light" onClick={editEducation}></i>
+          {isOpen && <EditEducation handleClose={editEducation} />}
           <div className="edu-content">
             <h3 className="section-title">Education</h3>
             <div className="edu-section">

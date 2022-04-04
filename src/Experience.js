@@ -1,14 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import EditExperience from "./EditExperience";
 import holderImg from './imgs/holder-img.png';
 
 export default function Experience() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function editExperience(event) {
+    event.preventDefault();
+    setIsOpen(!isOpen);
+  }
+
     return (
         <div className="card main-card experience">
-          <i className="fa-solid fa-plus add-btn add-btn-light"></i>
+          <i className="fa-solid fa-plus add-btn add-btn-light" onClick={editExperience}></i>
+          {isOpen && <EditExperience handleClose={editExperience} />}
           <div className="exp-content">
             <h3 className="section-title">Experience</h3>
             <div className="exp-section">
-              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light" onClick={editExperience}></i>
               <img src={holderImg} alt="" className='exp-img'></img>
               <div className="exp-info">
                 <ul>
@@ -26,7 +35,7 @@ export default function Experience() {
             </div>
             <hr />
             <div className="exp-section">
-              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light" onClick={editExperience}></i>
               <img src={holderImg} alt="" className='exp-img'></img>
               <div className="exp-info">
                 <ul>
@@ -44,7 +53,7 @@ export default function Experience() {
             </div>
             <hr />
             <div className="exp-section">
-              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light"></i>
+              <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light" onClick={editExperience}></i>
               <img src={holderImg} alt="" className='exp-img'></img>
               <div className="exp-info">
                 <ul>

@@ -6,7 +6,7 @@ export default function EditAbout(props) {
         <div className="popup">
             <div className="popup-box">
                 <div className="popup-head">
-                    <h3 className="popup-title">Edit about</h3>
+                    <h3 className="popup-title">edit about</h3>
                     <i className="fa-solid fa-xmark close-btn" onClick={props.handleClose} ></i>
                 </div>
                 <div className="edit-info-wrapper">

@@ -34,7 +34,7 @@ export default function EditProfile(props) {
                         </div>
                         <div className="full-width">
                             <input type="checkbox" name="" id="show-education" />
-                            <label htmlFor="show-education" id="show-education-label">Show education in my intro</label>
+                            <label htmlFor="show-education" id="checkbox-label">Show education in my intro</label>
                         </div>
                         <div className="full-width">
                             <label htmlFor="education">Education</label>
