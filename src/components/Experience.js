@@ -15,7 +15,7 @@ export default function Experience() {
         <div className="card main-card experience">
           <i className="fa-solid fa-plus add-btn add-btn-light" onClick={editExperience}></i>
           {isOpen && <EditExperience handleClose={editExperience} />}
-          <div className="exp-content">
+          <div className="exp-content text-wrapper">
             <h3 className="section-title">Experience</h3>
             <div className="exp-section">
               <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light" onClick={editExperience}></i>

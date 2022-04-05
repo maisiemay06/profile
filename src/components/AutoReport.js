@@ -14,7 +14,7 @@ export default function AutoReport() {
       <div className="card main-card auto-report">
         <i className="fa-solid fa-pen-to-square edit-btn edit-btn-dark" onClick={editAutoReport}></i>
         {isOpen && <EditAutoReport handleClose={editAutoReport}/>}
-        <div className="container">
+        <div className="container text-wrapper">
           <h3 className="section-title">Auto Meeow Report decription</h3>
           <p className="section-descrip">This info will be included whenever anyone posts a Meeow Report to Linkedin about a Meeow you attended.</p>
           <div className="row">

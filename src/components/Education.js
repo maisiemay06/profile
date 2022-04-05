@@ -16,7 +16,7 @@ function editEducation(event) {
           <i className="fa-solid fa-plus add-btn add-btn-light" onClick={editEducation}></i>
           <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light" onClick={editEducation}></i>
           {isOpen && <EditEducation handleClose={editEducation} />}
-          <div className="edu-content">
+          <div className="edu-content text-wrapper">
             <h3 className="section-title">Education</h3>
             <div className="edu-section">
               <img src={holderImg} alt="" className='edu-img'></img>

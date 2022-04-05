@@ -14,7 +14,7 @@ function editAbout(event) {
         <div className="card main-card about">
           <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light" onClick={editAbout}></i>
           {isOpen && <EditAbout handleClose={editAbout}/>}
-          <div className="about-info">
+          <div className="about-info text-wrapper">
             <h3 className="section-title">About</h3>
             <p className="section-descrip">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi error magnam vitae fugit, quos aliquam totam ex tempore commodi autem doloremque deleniti in quidem corporis odio velit officiis! Odio, neque.

@@ -5,7 +5,7 @@ export default function AvoidProfessions() {
     return (
         <div className="card main-card avoid">
           <i className="fa-solid fa-pen-to-square edit-btn"></i>  
-          <div className="container">
+          <div className="container text-wrapper">
             <div className="row">
               <div className="avoid-intro col-6">
                 <h3 className="smaller-section-title">Professions to avoid x 3</h3>

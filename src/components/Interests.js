@@ -14,7 +14,7 @@ export default function Interests() {
         <div className="card main-card interests">
           <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light" onClick={editInterests}></i>
           {isOpen && <EditInterests handleClose={editInterests} />}
-          <div className="interests-info">
+          <div className="interests-info text-wrapper">
             <h3 className="section-title">Interests</h3>
             <ul>
               <li>Interest 1  X</li>

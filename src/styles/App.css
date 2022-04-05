@@ -24,9 +24,14 @@ ul {
   padding-left: 0;
 }
 
+li {
+  margin-top: 15px;
+}
+
 .card {
   border: none;
 }
+
 
 /* COUNTER BAR */
 .counter-nav {
@@ -146,38 +151,66 @@ ul {
 }
 
 /* MAIN */
-main {
+.main-container {
+  margin-left: 245px;
   margin-top: 76px;
   padding-top: 33px;
   color: var(--dark-blue);
-}
-.main-container {
-  margin-left: 245px;
-  max-width: 1292px;
-  width: 60%;
+  max-width: 1322px;
+  width: 80%;
 }
 
 .main-card {
   border: none;
   border-radius: 0%;
   margin-bottom: 20px;
-  padding: 46px;
+  width: 100%;
 }
 
+.text-wrapper {
+  padding: 46px;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 1.28rem;
+  font-weight: 600;
+}
+
+.section-descrip {
+ font-size: 1rem;
+}
+
+.section-content {
+  font-size: 1rem;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.gap {
+  width: 24px;
+}
+
+.close-list li::after {
+  content: 'X';
+  margin-left: 20px;
+}
+
+/* EDIT & ADD BUTTONS */
 .edit-btn,
 .add-btn {
   color: var(--main-blue);
   font-size: 1.6rem;
   z-index: 8;
   text-align: right;
+  display: block;
   position: relative;
-  top: -20px;
-  right: -20px;
+  top: 30px;
+  right: 25px;
 }
 
 .add-btn {
   margin-bottom: 10px;
-  right: -18px;
 }
 
 .edit-btn-light,
@@ -185,23 +218,13 @@ main {
   color: var(--accent-light);
 }
 
+.edit-btn-wht {
+  color: var(--white);
+}
+
 .edit-btn:hover,
 .add-btn:hover {
   cursor: pointer;
-}
-
-.section-title {
-  font-size: 1.28rem;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-
-.section-descrip {
-  font-size: 1rem;
-}
-
-.gap {
-  width: 24px;
 }
 
 /* RESPONSIVE */
@@ -210,9 +233,7 @@ main {
     font-size: 12px;
   }
 
-  .main-container {
-    width: 60%;
-  }
+ 
 
 
   
