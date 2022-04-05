@@ -15,12 +15,9 @@
 }
 
 .in-meeow-profile .card {
-  display: inline-block;
   background-color: var(--main-blue);
   height: 229px;
-  color: var(--white);
   padding: 30px;
-  border-radius: 8px;
-  width: 100%;
-  margin-top: 20px;
+  color: var(--white);
+
 }

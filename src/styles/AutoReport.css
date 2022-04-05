@@ -1,28 +1,27 @@
 
 /* AUTO MEEOW REPORT */
 .auto-report .edit-btn-dark {
-    color: var(--dark-blue);
-  }
+  color: var(--dark-blue);
+}
+
+.auto-report .container {
+  margin-left: 0;
+  margin-top: -20px;
+}
+
+.auto-report .card {
+  background-color: var(--dark-blue);
+  height: 196px;
+  margin-left: 10px;
+  color: var(--white);
+  padding: 30px;
+
+}
+
+
+
+.auto-report input {
+  border: solid 3px var(--dark-blue);
+  margin-right: 10px;
   
-  .auto-report .container {
-    margin-top: -20px;
-    margin-left: 20px;
-    padding: 0;
-  }
-  
-  .auto-report .card {
-    display: inline-block;
-    background-color: var(--dark-blue);
-    color: var(--white);
-    height: 196px;
-    padding: 30px;
-    border-radius: 8px;
-    margin-left: 10px;
-    width: 591px;
-  }
-  
-  .auto-report input {
-    border: solid 3px var(--dark-blue);
-    margin-right: 10px;
-    
-  }
+}

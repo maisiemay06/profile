@@ -20,12 +20,12 @@ export default function AutoReport() {
           <div className="row">
             <div className="card col report-box">
               <h3 className="section-title">What you do</h3>
-              <p className="section-descrip">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae cupiditate, dolore facilis qui maxime ut. Dolor, amet quasi quisquam delectus quia odit vitae explicabo! Cumque quae distinctio voluptates commodi accusantium.</p>
+              <p className="section-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae cupiditate, dolore facilis qui maxime ut. Dolor, amet quasi quisquam delectus quia odit vitae explicabo! Cumque quae distinctio voluptates commodi accusantium.</p>
             </div>
             <div className="col-xs-1 gap"></div>
             <div className="card col report-box">
               <h3 className="section-title">What you're looking for</h3>
-              <p className="section-descrip">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae cupiditate, dolore facilis qui maxime ut. Dolor, amet quasi quisquam delectus quia odit vitae explicabo! Cumque quae distinctio voluptates commodi accusantium.</p>
+              <p className="section-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae cupiditate, dolore facilis qui maxime ut. Dolor, amet quasi quisquam delectus quia odit vitae explicabo! Cumque quae distinctio voluptates commodi accusantium.</p>
             </div>
           </div>
           <input type="checkbox" id='reports'></input>

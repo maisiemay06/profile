@@ -196,6 +196,12 @@ li {
   margin-left: 20px;
 }
 
+.main-card .card{
+  display: inline-block;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
 /* EDIT & ADD BUTTONS */
 .edit-btn,
 .add-btn {
