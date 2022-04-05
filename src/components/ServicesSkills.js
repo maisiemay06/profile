@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import EditServicesSkills from "./EditServicesSkills";
+import '../styles/ServicesSkills.css';
 
 export default function ServicesSkills() {
   const [isOpen, setIsOpen] = useState(false);

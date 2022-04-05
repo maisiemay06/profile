@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import EditAbout from "./components/EditAbout";
+import EditAbout from "./EditAbout";
+import '../styles/About.css';
 
 export default function About() {
 const [isOpen, setIsOpen] = useState(false);

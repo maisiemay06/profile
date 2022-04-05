@@ -1,0 +1,11 @@
+
+/* AVOID PROFESSIONS */
+.avoid .smaller-section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .avoid .container {
+    margin-top: -10px;
+    margin-left: 2px;
+  }

@@ -1,0 +1,39 @@
+
+/* EXPERIENCE */
+.exp-content {
+    margin-top: -30px;
+  }
+  
+  .exp-content .edit-btn {
+    position: relative;
+    left: 1015px;
+  }
+  
+  .exp-content .exp-section {
+    margin: 60px 0;
+  }
+  
+  .exp-content .exp-info {
+    margin: -50px 0 20px 80px;
+    width: 90%;
+  }
+  
+  .exp-content .exp-title {
+    font-weight: 600;
+  }
+  
+  .exp-content img {
+    margin-left: -20px;
+    width: 49px;
+    height: 49px;
+  }
+  
+  .exp-content li {
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .exp-content hr {
+    border: solid 2px #F7F8FD;
+  }
+  

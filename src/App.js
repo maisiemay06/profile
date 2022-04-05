@@ -1,7 +1,7 @@
 import './styles/App.css';
 import ProfileSummary from './components/ProfileSummary';
 import AvoidProfessions from './components/AvoidProfessions';
-import InMeeowProfile from './components/nMeeowProfile';
+import InMeeowProfile from './components/InMeeowProfile';
 import AutoReport from './components/AutoReport';
 import ServicesSkills from './components/ServicesSkills';
 import About from './components/About';

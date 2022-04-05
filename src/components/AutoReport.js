@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import EditAutoReport from "./EditAutoReport";
+import '../styles/AutoReport.css';
 
 export default function AutoReport() {
   const [isOpen, setIsOpen] = useState(false);

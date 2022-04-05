@@ -1,5 +1,5 @@
 import React from "react";
-import holderImg from './imgs/holder-img.png';
+import holderImg from '../imgs/holder-img.png';
 import '../styles/PopUp.css';
 
 export default function EditProfile(props) {

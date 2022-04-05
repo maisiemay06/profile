@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import EditInMeeow from "./components/EditInMeeow";
+import EditInMeeow from "./EditInMeeow";
+import '../styles/InMeeowProfile.css';
 
 
 export default function InMeeowProfile() {

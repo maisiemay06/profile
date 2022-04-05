@@ -1,0 +1,23 @@
+
+/* IN MEEOW PROFILE */
+.in-meeow-profile {
+    color: var(--main-blue);
+  }
+  
+  .in-meeow-profile .in-meeow-head {
+    margin-left: -10px;
+  }
+  
+  .in-meeow-profile .container {
+    padding: 0;
+  }
+  
+  .in-meeow-profile .card {
+    display: inline-block;
+    background-color: var(--main-blue);
+    height: 229px;
+    color: var(--white);
+    padding: 30px;
+    border-radius: 8px;
+  }
+  

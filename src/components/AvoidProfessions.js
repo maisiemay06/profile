@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/AvoidProfessions.css';
 
 export default function AvoidProfessions() {
     return (

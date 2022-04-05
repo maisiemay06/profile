@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import EditExperience from "./components/EditExperience";
+import EditExperience from "./EditExperience";
 import holderImg from '../imgs/holder-img.png';
+import '../styles/Experience.css';
 
 export default function Experience() {
   const [isOpen, setIsOpen] = useState(false);
