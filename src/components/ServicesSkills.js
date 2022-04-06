@@ -15,7 +15,7 @@ export default function ServicesSkills() {
           <i className="fa-solid fa-pen-to-square edit-btn edit-btn-light" onClick={editServicesSkills}></i>
           {isOpen && <EditServicesSkills handleClose={editServicesSkills}/>}
           <div className="container-fluid text-wrapper">
-            <div className="row">
+            <div className="row card-deck">
               <div className="services card col">
                 <h3 className="section-title">Services</h3>
                 <ul className="close-list">

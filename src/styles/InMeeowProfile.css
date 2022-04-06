@@ -8,6 +8,10 @@
   margin-top: -20px;
 }
 
+.in-meeow-profile .card-deck {
+  margin-left: 0;
+}
+
 .in-meeow-profile .card {
   background-color: var(--main-blue);
   height: 229px;

@@ -21,13 +21,12 @@ export default function InMeeowProfile() {
             <h3 className="section-title">In Meeow profile</h3>
             <p className="section-descrip">This info will be displayed in your rollover profile during Meeows.</p>
           </div>
-        <div className="container-fluid">
+        <div className="container-fluid card-deck">
           <div className="row">
             <div className="card col in-meeow-about">
               <h3 className="section-title">About</h3>
               <p className="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nemo quibusdam officiis explicabo ut recusandae! Accusamus nesciunt, tempora quis perferendis non beatae maiores numquam delectus et sequi voluptatem eligendi animi!</p>
             </div>
-            <div className="col-xs gap"></div>
             <div className="card col container in-meeow-service-skills">
             <h3 className="section-title">Services/Skills</h3>
               <div className="row">
