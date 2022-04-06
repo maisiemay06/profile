@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import holderImg from '../imgs/holder-img.png';
 import '../styles/PopUp.css';
+import EditContact from './EditContact';
 
 export default function EditProfile(props) {
+const [isOpen, setIsOpen] = useState(false);
+
+function editContact(event) {
+    event.preventDefault();
+    setIsOpen(!isOpen)
+}
+
     return (
         <div className="popup edit-profile">
             <div className="popup-box">
@@ -64,6 +72,8 @@ export default function EditProfile(props) {
                         <div className="full-width">
                             <label htmlFor="contact">Contact info</label>
                             <input type="text" name="" id="contact" placeholder="Profile URL, Website, Phone, Email, Twitter, Birthday, WeChat ID"/>
+                            <i className="fa-solid fa-pen-to-square edit-btn" onClick={editContact}></i> 
+                            {isOpen && <EditContact handleClose={editContact}/>}
                         </div>
                     </form>
                 </div>

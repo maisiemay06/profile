@@ -17,6 +17,10 @@
   z-index: 20;
 }
 
+.edit-contact {
+  background: none;
+}
+
 .popup-box {
   position: relative;
   margin: auto;
@@ -56,6 +60,15 @@
   font-size: 2rem;
 }
 
+.back-btn {
+  font-size: 2rem;
+  display: block;
+  position: relative;
+  left: 10px;
+  bottom: 58px;
+}
+
+.back-btn:hover,
 .close-btn:hover {
     cursor: pointer;
 }
@@ -193,7 +206,25 @@
   display: none;
 }
 
-@media only screen and (max-height: 1000px) {
+.popup .edit-btn {
+  position: relative;
+  top: -55px;
+}
+
+.popup .edit-contact .edit-info-wrapper {
+  margin-top: 20px;
+}
+
+.popup .edit-contact a {
+  color: var(--main-blue);
+  text-align: left;
+}
+
+.popup .edit-contact #profile-url {
+  margin-top: 10px;
+}
+
+@media only screen and (max-height: 800px) {
   .popup-box {
     max-height: 600px;
   }
