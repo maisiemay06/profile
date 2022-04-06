@@ -21,7 +21,7 @@ export default function InMeeowProfile() {
             <h3 className="section-title">In Meeow profile</h3>
             <p className="section-descrip">This info will be displayed in your rollover profile during Meeows.</p>
           </div>
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="card col in-meeow-about">
               <h3 className="section-title">About</h3>

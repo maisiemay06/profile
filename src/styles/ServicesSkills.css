@@ -1,29 +1,19 @@
 
 /* SERVICES & SKILLS */
-.services-skills .container {
-    padding: 0;
-    margin: 0px 0px -80px -10px;
-    height: 370px;
-  }
-  
-  .services-skills card {
-    height: 370px;
-    
-  }
-  
-  .services-skills .section-title {
-    margin-bottom: 35px;
-  }
-  
-  .services-skills ul {
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
-  }
-  
-  .services-skills li {
-    margin-bottom: 10px;
-  }
+.services-skills .text-wrapper {
+  margin-top: -25px;
+}
+
+.services-skills ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.services-skills li {
+  display: inline-block;
+  width: 100%;
+}

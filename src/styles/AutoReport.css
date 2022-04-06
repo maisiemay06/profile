@@ -4,24 +4,19 @@
   color: var(--dark-blue);
 }
 
-.auto-report .container {
-  margin-left: 0;
+.auto-report .text-wrapper {
   margin-top: -20px;
 }
 
 .auto-report .card {
   background-color: var(--dark-blue);
-  height: 196px;
   margin-left: 10px;
   color: var(--white);
   padding: 30px;
-
+  margin-bottom: 30px;
 }
-
-
 
 .auto-report input {
   border: solid 3px var(--dark-blue);
   margin-right: 10px;
-  
 }

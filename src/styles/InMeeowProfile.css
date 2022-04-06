@@ -8,16 +8,9 @@
   margin-top: -20px;
 }
 
-.in-meeow-profile .container {
-  padding-left: 0;
-  padding-right: 0;
-  width: 100%;
-}
-
 .in-meeow-profile .card {
   background-color: var(--main-blue);
   height: 229px;
   padding: 30px;
   color: var(--white);
-
 }
