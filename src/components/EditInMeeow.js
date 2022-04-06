@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function EditInMeeow(props) {
     return (
-        <div className="popup">
+        <div className="popup edit-in-meeow">
             <div className="popup-box">
                 <div className="popup-head">
                     <h3 className="popup-title">edit in Meeow profile</h3>

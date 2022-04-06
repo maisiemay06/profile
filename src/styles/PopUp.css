@@ -1,182 +1,203 @@
 :root {
-    --main-blue: #3A4BF2;
-    --dark-blue: #28348A;
-    --accent-blue: #00DCDC;
-    --background: #F2F3FC;
-    --white: #FFFFFF;
-    --accent-light: #DFE1F8;
-  }
+  --main-blue: #3A4BF2;
+  --dark-blue: #28348A;
+  --accent-blue: #00DCDC;
+  --background: #F2F3FC;
+  --white: #FFFFFF;
+  --accent-light: #DFE1F8;
+}
 
 .popup {
-    position: fixed;
-    background: #00000050;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    z-index: 20;
-  }
-  
-  .popup-box {
-    position: relative;
-    margin: auto;
-    margin-top: 100px;
-    background: var(--white);
-    width: 743px;
-    max-height: 700px;
-    border-radius: 12px;
-  }
-  
-  .popup-head {
-    height: 70px;
-    border-bottom: 2px solid #2E3A8D20;
-  }
-  
-  .popup .popup-title {
-    font-size: 1.4rem;
-    color: var(--main-blue);
-    font-weight: 600;
-    padding-top: 25px;
-    padding-left: 30px;
-  }
-  
-  .close-btn {
-    display: block;
-    text-align: right;
-    position: relative;
-    right: 20px;
-    bottom: 25px;
-    font-size: 2rem;
-  }
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
 
-  .close-btn:hover {
-      cursor: pointer;
-  }
-  
-  .edit-info-wrapper {
-    height: 600px;
-    overflow-y: scroll;
-  }
-  
-  .change-cover-img {
-    width: 100%;
-    height: 171px;
-    background-color: #D8D9E5;
-  }
-  
-  .change-profile-img {
-    border-radius: 50%;
-    height: 158px;
-    position: relative;
-    top: -80px;
-    left: 30px;
-    margin-bottom: -70px;
-  }
-  
-  .popup form {
-    padding: 0 30px 20px 30px;
-    margin-top: 0px;
-    font-size: 1.2rem;
-    font-weight: 500;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    color: var(--dark-blue);
-  }
-  
-  .left-col {
-    grid-column: 1 / 3;
-  }
-  .right-col {
-    grid-column: 2 / 5;
-  }
-  .full-width {
-    grid-column: 1 / 5;
-  }
-  .column-1 {
-      grid-column: 1;
-  }
-  .column-2 {
-    grid-column: 2;
+.popup-box {
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  background: var(--white);
+  max-width: 743px;
+  width: 70%;
+  border-radius: 12px;
+  height: auto;
+  max-height: 700px;
+}
+
+.popup-head {
+  height: 70px;
+  border-bottom: 2px solid #2E3A8D20;
+  margin-bottom: 30px;
+}
+
+.edit-profile .popup-head {
+  margin-bottom: 0;
+}
+
+.popup .popup-title {
+  font-size: 1.4rem;
+  color: var(--main-blue);
+  font-weight: 600;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.close-btn {
+  display: block;
+  text-align: right;
+  position: relative;
+  right: 20px;
+  bottom: 35px;
+  font-size: 2rem;
+}
+
+.close-btn:hover {
+    cursor: pointer;
+}
+
+.edit-info-wrapper {
+  overflow-y: scroll;
+  max-height: 560px;
+}
+
+.change-cover-img {
+  width: 100%;
+  height: 171px;
+  background-color: #D8D9E5;
+}
+
+.change-profile-img {
+  border-radius: 50%;
+  height: 158px;
+  position: relative;
+  top: -80px;
+  left: 30px;
+  margin-bottom: -70px;
+}
+
+.popup form {
+  padding: 0 30px 20px 30px;
+  margin-top: 0px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  color: var(--dark-blue);
+}
+
+.left-col {
+  grid-column: 1 / 3;
+}
+.right-col {
+  grid-column: 3 / 5;
+}
+.full-width {
+  grid-column: 1 / 5;
+}
+.column-1 {
+    grid-column: 1;
+}
+.column-2 {
+  grid-column: 2;
 }
 .column-3 {
-    grid-column: 3;
+  grid-column: 3;
 }
 .column-4 {
-    grid-column: 4;
+  grid-column: 4;
 }
-  
-  .popup input[type=text],
-  .popup select {
-    display: block;
-    border: 1px solid #2E3A8D;
-    height: 50px;
-    width: 100%;
-    margin-bottom: 20px;
-    padding-left: 10px;
-  }
 
-  .popup textarea {
-    display: block;
-    border: 1px solid #2E3A8D;
-    width: 100%;
-    height: 117px;
-  }
-  
-  .popup select {
-    color: var(--dark-blue);
-  }
-  
-  .popup a {
-    color: var(--dark-blue);
-    text-align: right;
-    display: block;
-    text-decoration: none;
-    margin-top: -10px;
-  }
-  
-  .popup input[type=checkbox] {
-    margin-right: 10px;
-    width: 26px;
-    height: 26px;
-    border: 3px solid #2E3A8D;
-  }
-  
-  .popup #checkbox-label {
-    position: relative;
-    bottom: 7px;
-  }
-  
-  .popup input[type=checkbox],
-  #checkbox-label {
-    margin-bottom: 0;
-  }
-  
-  .popup #contact {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-  }
-  
-  .popup .save-btn {
-    background-color: var(--main-blue);
-    border: none;
-    width: 100%;
-    height: 70px;
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: var(--white);
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-  }
+.popup input[type=text],
+.popup select {
+  display: block;
+  border: 1px solid #2E3A8D;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
 
-  .popup p,
-  .popup input::placeholder,
-  .popup textarea::placeholder{
-    opacity: 36%;
-  }
-  
-  ::-webkit-scrollbar {
-    display: none;
-  }
+.popup textarea {
+  display: block;
+  border: 1px solid #2E3A8D;
+  width: 100%;
+  height: 117px;
+}
 
+.popup textarea::placeholder {
+  text-align: right;
+  padding-top: 80px;
+  padding-right: 10px;
+}
+
+.popup select {
+  color: var(--dark-blue);
+}
+
+.popup a {
+  color: var(--dark-blue);
+  text-align: right;
+  display: block;
+  text-decoration: none;
+  margin-top: -10px;
+}
+
+.popup input[type=checkbox] {
+  margin-right: 10px;
+  width: 26px;
+  height: 26px;
+  border: 3px solid #2E3A8D;
+}
+
+.popup #checkbox-label {
+  position: relative;
+  bottom: 7px;
+}
+
+.popup input[type=checkbox],
+#checkbox-label {
+  margin-bottom: 0;
+}
+
+.popup #contact {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.popup .save-btn {
+  background-color: var(--main-blue);
+  border: none;
+  width: 100%;
+  height: 70px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--white);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.popup p,
+.popup input::placeholder,
+.popup textarea::placeholder{
+  opacity: 36%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-height: 1000px) {
+  .popup-box {
+    max-height: 600px;
+  }
+  .edit-info-wrapper {
+    max-height: 460px;
+  }
+}

@@ -4,7 +4,7 @@ import '../styles/PopUp.css';
 
 export default function EditProfile(props) {
     return (
-        <div className="popup">
+        <div className="popup edit-profile">
             <div className="popup-box">
                 <div className="popup-head">
                     <h3 className="popup-title">edit intro</h3>

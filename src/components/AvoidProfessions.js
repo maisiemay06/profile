@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import '../styles/AvoidProfessions.css';
+import EditAvoid from "./EditAvoid";
 
 export default function AvoidProfessions() {
+const [isOpen, setIsOpen] = useState(false);
+
+function editAvoid(event) {
+  event.preventDefault();
+  setIsOpen(!isOpen);
+}
+
     return (
         <div className="card main-card avoid">
-          <i className="fa-solid fa-pen-to-square edit-btn"></i>  
+          <i className="fa-solid fa-pen-to-square edit-btn" onClick={editAvoid}></i>  
+          {isOpen && <EditAvoid handleClose={editAvoid}/>}
           <div className="container text-wrapper">
             <div className="row">
               <div className="avoid-intro col-6">

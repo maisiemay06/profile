@@ -216,7 +216,6 @@ li {
 }
 
 .card-deck {
-  
   padding: 0;
 }
 
@@ -230,7 +229,8 @@ li {
   display: block;
   position: relative;
   top: 30px;
-  right: 25px;
+  left: 96%;
+  width: 25px;
 }
 
 .add-btn {
