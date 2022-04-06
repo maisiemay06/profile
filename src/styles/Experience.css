@@ -32,3 +32,9 @@
 .exp-content hr {
   border: solid 2px #F7F8FD;
 }
+
+.exp-content a {
+  text-decoration: underline;
+  margin-left: 3px;
+  color: var(--dark-blue);
+}

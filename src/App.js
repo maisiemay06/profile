@@ -12,6 +12,7 @@ import profileImg from './imgs/profile-img.png';
 import meeowLogo from './imgs/meeow-logo.png';
 
 function App() {
+
   return (
     <div className="App">
 
@@ -22,14 +23,28 @@ function App() {
         <button className='book-meeow-btn button'>book this Meeow</button>
         <i className="fa-solid fa-magnifying-glass"></i>
         <input className='search' type='text' placeholder='Search here'></input>
-        <a href='' className='notifications'>
-          <i className="fa-solid fa-bell"></i>
-          notifications
-        </a>
-        <a href=''>
-          <img src={profileImg} className='nav-profile-img'></img>
-        </a>
+        <div className="drop-down-hover" >
+          <a href='' className='notifications'>
+            <i className="fa-solid fa-bell"></i>
+            notifications
+          </a>
+          <a href=''>
+            <img src={profileImg} className='nav-profile-img'></img>
+          </a>
+        </div>
+        <div className="drop-down-nav">
+          <ul>
+            <li>Account</li>
+            <li>Profile</li>
+            <li>Meeow History</li>
+            <li>Join referral scheme</li>
+            <li>Sign into referral scheme</li>
+            <li>Settings</li>
+            <li>Logout</li>
+          </ul>
+      </div>
       </header>
+
 
 
       <nav className='sidebar-nav'>

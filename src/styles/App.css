@@ -99,6 +99,13 @@ li {
   color: var(--main-blue);
 }
 
+.counter-nav .drop-down-hover {
+  height: 76px;
+  padding-top: 10px;
+  transition: 0.3s ease-out;
+
+}
+
 .counter-nav .notifications {
   color: var(--white);
   font-size: 1.14rem;
@@ -114,6 +121,42 @@ li {
 .counter-nav .nav-profile-img {
   height: 57px;
   width: 57px;
+}
+
+/* DROP DOWN NAV */
+.drop-down-nav {
+  background-color: var(--white);
+  width: 240px;
+  height: 400px;
+  position: fixed;
+  top: 76px;
+  left: 88%;
+  border-bottom-left-radius: 12px;
+  box-shadow: 2px 6px 10px #00000016;
+  z-index: 11;
+  display: none;
+  transition: 0.3s ease-out;
+}
+
+.drop-down-nav li {
+  color: var(--main-blue);
+  font-weight: 500;
+  transition: 0.3s ease-out;
+  padding: 14px 30px;
+  margin: 0;
+}
+
+.drop-down-nav li:hover {
+  background-color: var(--background);
+}
+
+.drop-down-hover:hover + .drop-down-nav {
+  display: block;
+  
+}
+
+.drop-down-nav:hover {
+  display: block;
 }
 
 /* SIDEBAR */
@@ -261,12 +304,3 @@ li {
     margin-right: 5%;
   }
 }
-
-
-
-/* TO DO:
-Add underline to see more and space before
-Drop down menu from nav bar
-Checkbox restyle
-Responsive - pop up too!
-*/
