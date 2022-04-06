@@ -19,13 +19,13 @@
 }
 
 .exp-content img {
-  margin-left: -20px;
+  position: relative;
+  top: 20px;
   width: 49px;
   height: 49px;
 }
 
 .exp-content li {
-  margin-bottom: 8px;
   font-weight: 500;
 }
 
