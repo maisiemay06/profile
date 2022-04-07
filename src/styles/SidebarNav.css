@@ -1,0 +1,104 @@
+
+/* SIDEBAR */
+.sidebar-nav {
+    background-color: var(--white);
+    color: var(--main-blue);
+    font-weight: 500;
+    width: 230px;
+    height: 100%;
+    z-index: 11;
+    position: fixed;
+    margin-top: -76px;
+  }
+  
+  .sidebar-nav .logo {
+    width: 125px;
+    margin: 32px;
+  }
+  
+  .sidebar-nav ul {
+    margin-left: 30px;
+  }
+  
+  .sidebar-nav li {
+    font-size: 1rem;
+    margin-bottom: 28px;
+  }
+  
+  /* SIDEBAR FOOTER */
+  .sidebar-footer {
+    position: fixed;
+    bottom: 40px;
+    width: 229px;
+  }
+  
+  .sidebar-footer .how-to-btn {
+    background-color: var(--accent-blue);
+    color: var(--white);
+    width: 148px;
+    height: 41px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 30px;
+  }
+  
+  .sidebar-footer hr {
+    background-color: #3744E9;
+    opacity: 12%;
+  }
+  
+  /* MAIN */
+  .main-container {
+    margin-left: 245px;
+    margin-top: 76px;
+    padding-top: 33px;
+    color: var(--dark-blue);
+    max-width: 1322px;
+    width: 80%;
+  }
+  
+  .main-card {
+    border: none;
+    border-radius: 0%;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .text-wrapper {
+    padding: 46px;
+    width: 100%;
+    margin-top: -25px;
+  }
+  
+  .section-title {
+    font-size: 1.28rem;
+    font-weight: 600;
+  }
+  
+  .section-descrip {
+   font-size: 1rem;
+  }
+  
+  .section-content {
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 30px;
+  }
+  
+  
+  .close-list li::after {
+    content: 'X';
+    margin-left: 20px;
+  }
+  
+  .main-card .card{
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 20px;
+    min-width: 350px;
+  }
+  
+  .card-deck {
+    padding: 0;
+  }
+  
