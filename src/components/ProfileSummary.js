@@ -23,9 +23,9 @@ export default function ProfileSummary() {
       <img src={profileImg} alt="" className='profile-img'></img>
       <i className="fa-solid fa-pen-to-square edit-btn edit-btn-profile" onClick={editProfile} id='edit-profile'></i>  
       {isOpen && <EditProfile handleClose={editProfile}/>}
-      <div className="summary-info container text-wrapper">
+      <div className="summary-info container-fluid text-wrapper">
         <div className="row">
-          <div className="col-7">
+          <div className="col-sm-7">
             <div className="intro">
               <h2 className="profile-name">Simon Glenn - MEEOWMAN</h2>
               <p className="job-title">Co-Founder at Meeow</p>
@@ -47,7 +47,7 @@ export default function ProfileSummary() {
               </ul>
             </div>
           </div>
-          <div className="exp-edu-summary col-3">
+          <div className="exp-edu-summary col-sm-3">
             <div className="img-list-container">
               <img src={meeowLogo2} alt="" className='exp-edu-img'></img>
               <p>Meeow Ltd</p>
@@ -57,7 +57,7 @@ export default function ProfileSummary() {
                 <p>Whitcliffe Mount Comprehensive School</p>
             </div>
           </div>
-          <div className="languages col-2">
+          <div className="languages col-sm-2">
             <h4 className='summary-title'>Languages</h4>
               <ul className='close-list'>
                 <li>Language 1</li>

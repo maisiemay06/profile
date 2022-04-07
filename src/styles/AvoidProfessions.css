@@ -5,7 +5,15 @@
     font-weight: 600;
   }
   
-  .avoid .container {
+  .avoid .container-fluid {
     margin-top: -10px;
     margin-left: 2px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .avoid-profession {
+      margin-left: 15px;
+      margin-top: 20px;
+    }
+    
   }

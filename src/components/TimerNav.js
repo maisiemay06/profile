@@ -5,6 +5,7 @@ import '../styles/TimerNav.css';
 export default function TimerNav() {
     return (
         <header className='counter-nav'>
+        <i className="fa-solid fa-bars"></i>
         <h6 className='timer-title'>the next Meeow starts in</h6>
         <h1 className='timer-countdown'>23:54</h1>
         <button className='book-meeow-btn button'>book this Meeow</button>

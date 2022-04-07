@@ -93,17 +93,28 @@
     right: 3%;
   }
   
+  .fa-bars {
+    font-size: 3rem;
+    display: none;
+    position: relative;
+    right: 70%;
+  }
+
+  .fa-bars:hover {
+    cursor: pointer;
+  }
+
   /* DROP DOWN NAV */
   .drop-down-nav {
     background-color: var(--white);
     width: 240px;
     height: 400px;
     position: fixed;
-    top: 76px;
-    left: 88%;
+    top: 77px;
+    right: 0;
     border-bottom-left-radius: 12px;
     box-shadow: 2px 6px 10px #00000016;
-    z-index: 11;
+    z-index: 2;
     display: none;
     transition: 0.3s ease-out;
   }
@@ -148,5 +159,9 @@
     }
     .counter-nav {
         margin-left: 0;
+    }
+
+    .fa-bars {
+      display: block;
     }
 }

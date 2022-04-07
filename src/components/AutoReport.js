@@ -28,7 +28,7 @@ export default function AutoReport() {
             </div>
           </div>
           <input type="checkbox" id='reports'></input>
-          <label htmlFor="reports">I would like to be included in Meeow Report posts made by other and myself on Linkedin</label>
+          <label htmlFor="reports" id="report-label">I would like to be included in Meeow Report posts made by other and myself on Linkedin</label>
         </div>
       </div>
     )

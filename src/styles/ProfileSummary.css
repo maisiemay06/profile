@@ -22,7 +22,7 @@
 }
 
 
-.profile-summary .container {
+.profile-summary .container-fluid {
   width: 100%;
   margin-left: 0px;
   margin-top: -80px;
@@ -95,5 +95,19 @@
   .profile-summary .cover-img {
     height: 200px;
   }
-  
+
+  .profile-summary .connections {
+  display: block;
+  margin-left: 0;
+}
+}
+
+
+@media only screen and (max-width: 480px){
+  .contact,
+  .exp-edu-summary {
+    margin-bottom: 30px;
+  }
+
+ 
 }

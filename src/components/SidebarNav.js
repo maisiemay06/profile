@@ -5,6 +5,7 @@ import '../styles/SidebarNav.css';
 export default function SidebarNav() {
     return (
         <nav className='sidebar-nav'>
+          
         <img src={meeowLogo} className='logo'></img>
         <ul className='nav-list'>
           <li>Calendar</li>
