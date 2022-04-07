@@ -65,12 +65,78 @@ li {
   cursor: pointer;
 }
 
+/* MAIN */
+.main-container {
+  margin-left: 245px;
+  margin-top: 76px;
+  padding-top: 33px;
+  color: var(--dark-blue);
+  max-width: 1322px;
+  width: 80%;
+}
+
+.main-card {
+  border: none;
+  border-radius: 0%;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.text-wrapper {
+  padding: 46px;
+  width: 100%;
+  margin-top: -25px;
+}
+
+.section-title {
+  font-size: 1.28rem;
+  font-weight: 600;
+}
+
+.section-descrip {
+ font-size: 1rem;
+}
+
+.section-content {
+  font-size: 1rem;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+
+.close-list li::after {
+  content: 'X';
+  margin-left: 20px;
+}
+
+.main-card .card{
+  display: inline-block;
+  border-radius: 8px;
+  margin-top: 20px;
+  min-width: 350px;
+}
+
+.card-deck {
+  padding: 0;
+}
+
+
 /* RESPONSIVE */
 @media only screen and (max-width: 1400px){
   :root {
     font-size: 12px;
   }
-  .counter-nav .book-meeow-btn {
-    margin-right: 5%;
+
+  .main-container {
+    margin-left: 200px;
   }
+}
+
+@media only screen and (max-width: 480px){
+  .main-container {
+      margin-left: 0;
+      width: 100%;
+      padding: 20px 0 0 0;
+  }
+ 
 }

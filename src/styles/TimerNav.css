@@ -89,6 +89,8 @@
   .counter-nav .nav-profile-img {
     height: 57px;
     width: 57px;
+    position: fixed;
+    right: 3%;
   }
   
   /* DROP DOWN NAV */
@@ -127,3 +129,24 @@
     display: block;
   }
   
+  /* RESPONSIVE */
+@media only screen and (max-width: 1400px){
+    .counter-nav {
+        margin-left: 190px;
+    }
+    
+    .counter-nav .book-meeow-btn {
+      margin-right: 30%;
+    }
+  }
+
+  @media only screen and (max-width: 480px){
+    .counter-nav .timer-countdown,
+    .counter-nav .timer-title,
+    .counter-nav .book-meeow-btn {
+        display: none;
+    }
+    .counter-nav {
+        margin-left: 0;
+    }
+}
